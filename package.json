@@ -1,25 +1,33 @@
 {
-  "name": "react-sort-drag",
+  "name": "@infinitecreations/react-sort-drag",
   "version": "1.0.0",
-  "description": "Ability to sort a list of items as cards and drag them to resort seamlessly. The sort-drag package allows the ability to properly scroll a long list of vertical items easily and works with React 18 and higher.",
-  "keywords": [
-    "sort",
-    "drag",
-    "items"
-  ],
-  "homepage": "https://github.com/coreyinfinitecreations/react-sort-drag#readme",
-  "bugs": {
-    "url": "https://github.com/coreyinfinitecreations/react-sort-drag/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coreyinfinitecreations/react-sort-drag.git"
-  },
-  "license": "ISC",
-  "author": "Infinite Creations",
-  "type": "module",
-  "main": "index.js",
+  "description": "A React component for sorting card items via drag-and-drop",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "sortable",
+    "drag-and-drop"
+  ],
+  "author": "Corey Owens",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "rollup": "^4.13.0"
   }
 }
