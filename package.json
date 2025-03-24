@@ -1,0 +1,25 @@
+{
+  "name": "react-sort-drag",
+  "version": "1.0.0",
+  "description": "Ability to sort a list of items as cards and drag them to resort seamlessly. The sort-drag package allows the ability to properly scroll a long list of vertical items easily and works with React 18 and higher.",
+  "keywords": [
+    "sort",
+    "drag",
+    "items"
+  ],
+  "homepage": "https://github.com/coreyinfinitecreations/react-sort-drag#readme",
+  "bugs": {
+    "url": "https://github.com/coreyinfinitecreations/react-sort-drag/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreyinfinitecreations/react-sort-drag.git"
+  },
+  "license": "ISC",
+  "author": "Infinite Creations",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
